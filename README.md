@@ -1,8 +1,8 @@
-# MindMesh
+# Solution-Forge_AI
 
 ## AI Solution Architecture Blueprint Engine
 
-MindMesh is a full-stack, multi-agent architecture-planning application. It accepts a plain-language product idea and delivery constraints, then uses a sequential CrewAI workflow to produce an enterprise-style solution blueprint.
+Solution-Forge_AI is a full-stack, multi-agent architecture-planning application. It accepts a plain-language product idea and delivery constraints, then uses a sequential CrewAI workflow to produce an enterprise-style solution blueprint.
 
 The generated blueprint combines:
 
@@ -15,7 +15,7 @@ The generated blueprint combines:
 
 The application is intended for product owners, founders, business analysts, solution architects, engineering managers, technical consultants, and delivery teams who need a structured starting point for architecture and delivery planning before implementation begins.
 
-> **Important:** MindMesh generates architecture recommendations. It does not replace security review, compliance/legal advice, capacity testing, cost validation, or an implementation team's technical judgment.
+> **Important:** Solution-Forge_AI generates architecture recommendations. It does not replace security review, compliance/legal advice, capacity testing, cost validation, or an implementation team's technical judgment.
 
 ---
 
@@ -145,7 +145,7 @@ sequenceDiagram
 ## Repository structure
 
 ```text
-mindmesh/
+Solution-Forge_AI/
 ├── frontend/
 │   ├── app.py                  # Streamlit entry point and UI state router
 │   ├── api_client.py           # Health, generation, history, retrieve, delete calls
@@ -247,7 +247,7 @@ Run the backend and frontend in **separate terminals**.
 ### Terminal 1: start the backend
 
 ```powershell
-cd C:\Users\rahul\OneDrive\Desktop\CTS\mindmesh\backend
+cd C:\Users\tanu\OneDrive\Desktop\Solution-Forge_AI\backend
 uv run fastapi dev main.py
 ```
 
@@ -262,7 +262,7 @@ The API should be available at:
 ### Terminal 2: start the frontend
 
 ```powershell
-cd C:\Users\rahul\OneDrive\Desktop\CTS\mindmesh
+cd C:\Users\tanu\OneDrive\Desktop\Solution-Forge_AI
 uv run streamlit run frontend\app.py
 ```
 
